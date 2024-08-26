@@ -1,0 +1,11 @@
+h1 {
+    font-size: 5vw; /* The font size is 5% of the viewport width */
+    margin: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: calc(3vw + 2vh); /* Combines vw and vh units */
+}
+h1 {
+    font-size: clamp(20px, 5vw, 50px); /* Sets a minimum, preferred, and maximum size */
+}
