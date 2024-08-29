@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+#basicGrid{
+    border-radius: 1vh;
+    box-shadow: 4px 5px 4px 5px #c1a29375;
+    width: 80vw;
+    margin: 20vh 10vw;
+    display: grid;
+    background-color: #FFF8E8;
+    grid-template-columns: repeat(4, 1fr);
+}
+.cell{
+    margin: 2vh ;
+    border-radius: 1vh;
+    text-align: center;
+    height: 10vh;
+    
+}
+#cell_num1{
+    background-color: #AAB396;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#cell_num2{
+    background-color: #674636;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#cell_num3{
+    background-color: #F7EED3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#cell_num4{
+    background-color: rgb(37, 54, 54);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+#cell_num5{
+    background-color: rgb(65, 176, 176);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
